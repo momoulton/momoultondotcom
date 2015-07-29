@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  position: relative;
+  min-height: 100%
+}
+
+body {
+  line-height: 1;
+  background-color: #FAFFF0;
+  margin: 0 0 50px;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-color: #EBFFE0;
+  border-bottom: 4px solid #6BB247;
+  width:100%;
+}
+
+header h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  padding: 15px;
+  left: 20px;
+}
+
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+header div{
+  width:100%;
+  margin:0 auto;
+}
+
+header nav ul li{
+  display:inline-block;
+  padding:0 15px;
+}
+
+header nav ul{
+  margin: 20px 60px 10px 15px;
+}
+
+header nav ul li a{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 24px;
+  color:gray;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  color:#000000;
+  text-decoration: underline;
+}
+
+.banner {
+  padding-bottom: 10px;
+}
+
+.banner p {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  top: 10px;
+  background-color: black;
+  opacity: .6;
+  padding: 10px;
+  text-align: center;
+}
+
+.puppies {
+  background-color: gray;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.odd {
+  background-color: #97C97E;
+}
+
+.puppies img{
+  position: relative;
+  padding-left: 20px;
+  display: inline-block;
+}
+.puppies p:first-child{
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  padding: 5px;
+}
+
+.puppies p:last-child {
+  font-size: 15px;
+  position: relative;
+  font-family: sans-serif;
+  color: white;
+  padding: 5px;
+  text-align: right;
+}
+
+#space {
+  height: 100px;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+footer {
+  background-color: #EBFFE0;
+  border-top: 4px solid #6BB247;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+footer div{
+  width:100%;
+  margin:20px auto;
+}
+
+footer nav ul li{
+  display:inline-block;
+  padding:0 25px;
+}
+
+footer nav ul{
+  margin: 10px 60px 10px 0;
+}
+
+footer nav ul li a{
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 24px;
+  color:gray;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover{
+  color:#000000;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  padding: 15px;
+  left: 20px;
+}
+
+#book {
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#book ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+#book ul li a{
+  color:gray;
+  text-decoration: none;
+}
+
+#book ul li a:hover{
+  color:#000000;
+  text-decoration: underline;
+}
+
+#book ul li{
+  padding:0 5px;
+  margin: 5px 50px 5px 10px;
+}
+
+#book p {
+  padding:0 5px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#book p a{
+  color:black;
+  text-decoration: underline;
+}
+
+#book p a:hover{
+  color:gray;
+  text-decoration: underline;
+}
+
+#articles {
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+#articles ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+#articles ul li a{
+  color:black;
+  text-decoration: underline;
+}
+
+#articles ul li a:hover{
+  color:gray;
+  text-decoration: underline;
+}
+
+#articles ul li{
+  padding:0 5px;
+  margin: 5px 50px 10px 10px;
+}
+
+#aboutme p {
+  font-family: sans-serif;
+  margin: 20px 50px 50px 50px;
+}
+
+#skills {
+  font-family: sans-serif;
+}
+
+#skills ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+#skills ul li{
+  padding:0 5px;
+  margin: 5px 50px 5px 10px;
+}
+
+#projects {
+  font-family: sans-serif;
+}
+
+#projects ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
+#projects ul li{
+  padding:0 5px;
+  margin: 5px 50px 20px 10px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#projects ul li p{
+  font-size: 16px;
+  font-style: normal;
+}
